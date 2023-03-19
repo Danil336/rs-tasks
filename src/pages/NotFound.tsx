@@ -1,5 +1,7 @@
 import React from 'react';
 
-export const NotFound = () => {
-  return <div className="">привет</div>;
+const NotFound = () => {
+  return <div className="">Страница не найдена</div>;
 };
+
+export default NotFound;
