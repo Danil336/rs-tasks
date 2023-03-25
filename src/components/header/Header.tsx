@@ -13,6 +13,9 @@ const Header = () => {
           <li className="header_li">
             <NavLink to={'/about'}>About us</NavLink>
           </li>
+          <li className="header_li">
+            <NavLink to={'/myPosts'}>My posts</NavLink>
+          </li>
         </ul>
       </div>
     </header>

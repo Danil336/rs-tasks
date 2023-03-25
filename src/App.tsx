@@ -5,6 +5,7 @@ import NotFound from './pages/NotFound';
 import './App.css';
 import Header from './components/header/Header';
 import About from './pages/About';
+import MyPosts from './pages/MyPosts';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/myPosts" element={<MyPosts />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
